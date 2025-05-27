@@ -1,0 +1,47 @@
+﻿﻿@model Nvllesson06.Models.NvlEmployee
+
+@{
+    ViewData["Title"] = "Thêm nhân viên mới";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+    <form asp-action="VklCreateSubmit" method="post">
+        
+        <div class="input-group mb-3">
+            <span class="input-group-text">Họ tên</span>
+            <input asp-for="NvlName" class="form-control" placeholder="Nhập họ tên" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Ngày sinh</span>
+            <input asp-for="NvlBirthDay" type="date" class="form-control" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input asp-for="NvlEmail" class="form-control" placeholder="Email" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">📞</span>
+            <input asp-for="NvlPhone" class="form-control" placeholder="Số điện thoại" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">💰</span>
+            <input asp-for="NvlSalary" class="form-control" placeholder="Lương" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Trạng thái</span>
+            <select asp-for="NvlStatus" class="form-select">
+                <option value="true">Đang làm</option>
+                <option value="false">Đã nghỉ</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Thêm</button>
+        <a asp-action="NvlIndex" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

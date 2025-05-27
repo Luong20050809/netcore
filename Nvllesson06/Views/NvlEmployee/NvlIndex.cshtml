@@ -1,0 +1,52 @@
+﻿﻿@model IEnumerable<Nvllesson06.Models.NvlEmployee>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Danh sách nhân viên</h2>
+    <a class="btn btn-primary mb-3" asp-action="NvlCreate">Thêm mới nhân viên</a>
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Mã NV</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Lương</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var nvlEmp in Model)
+            {
+                <tr>
+                    <td>@nvlEmp.NvlId</td>
+                    <td>@nvlEmp.NvlName</td>
+                    <td>@nvlEmp.NvlBirthDay.ToString("dd/MM/yyyy")</td>
+                    <td>@nvlEmp.NvlEmail</td>
+                    <td>@nvlEmp.NvlPhone</td>
+                    <td>@nvlEmp.NvlSalary.ToString("C")</td>
+                    <td class="text-center">
+                        @if (nvlEmp.NvlStatus)
+                        {
+                            <span class="badge bg-success">Dang lam</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-primary">nghi</span>
+                        }
+                    </td>
+                    <td>
+                        <a class="btn btn-sm btn-warning" asp-action="NvlEdit" asp-route-id="@nvlEmp.NvlId">Sửa</a>
+                        <a class="btn btn-sm btn-danger" asp-action="NvlDelete" asp-route-id="@nvlEmp.NvlId"
+                           onclick="return confirm('Bạn có chắc muốn xóa nhân viên này?');">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
