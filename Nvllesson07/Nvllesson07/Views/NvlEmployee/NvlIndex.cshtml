@@ -1,0 +1,66 @@
+﻿@model IEnumerable<NvlLesson07.Models.NvlEmployee>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlBirthDay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlSalary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NvlStatus)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
