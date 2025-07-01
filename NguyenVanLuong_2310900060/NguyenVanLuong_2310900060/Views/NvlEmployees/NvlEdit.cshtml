@@ -1,0 +1,54 @@
+﻿@model NguyenVanLuong_2310900060.Models.NvlEmployee
+
+@{
+    ViewData["Title"] = "Sửa thông tin danh mục loại";
+}
+
+<h4>NvlEmployee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="NvlEdit">
+            <div class="card">
+                <div class="card-header">
+                    <h1>@ViewData["Title"]</h1>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NvlEmpId" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvlEmpName" class="control-label"></label>
+                <input asp-for="NvlEmpName" class="form-control" />
+                <span asp-validation-for="NvlEmpName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvlEmpLevel" class="control-label"></label>
+                <input asp-for="NvlEmpLevel" class="form-control" />
+                <span asp-validation-for="NvlEmpLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvlEmpStartDate" class="control-label"></label>
+                <input asp-for="NvlEmpStartDate" class="form-control" />
+                <span asp-validation-for="NvlEmpStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvlEmpStatus" class="control-label"></label>
+                <input asp-for="NvlEmpStatus" class="form-control" />
+                <span asp-validation-for="NvlEmpStatus" class="text-danger"></span>
+            </div>
+            <div class="card-footer">
+                <div class="form-group">
+                    <input type="submit" value="Ghi lại" class="btn btn-primary" name="btnNvlUpdate" />
+
+                    <a asp-action="NvlIndex" class="btn btn-secondary">Back to List</a>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\views\\nvlemployees\\nvledit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\views\\nvlemployees\\nvledit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\views\\nvlemployees\\nvldelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\views\\nvlemployees\\nvldelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\controllers\\nvlemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\controllers\\nvlemployeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\models\\nvlemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\models\\nvlemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\views\\nvlemployees\\nvlcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\views\\nvlemployees\\nvlcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\views\\nvlemployees\\nvlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\views\\nvlemployees\\nvlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\views\\nvlhome\\nvlabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\views\\nvlhome\\nvlabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\models\\nguyenvanluong2310900060context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\models\\nguyenvanluong2310900060context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|c:\\users\\admin\\source\\repos\\nguyenvanluong_2310900060\\nguyenvanluong_2310900060\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91745931-7E7C-4787-BCD2-4BBAA445BBFC}|NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060.csproj|solutionrelative:nguyenvanluong_2310900060\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NvlDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlDelete.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlDelete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlDelete.cshtml",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlDelete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:00:48.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NvlEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlEdit.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlEdit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlEdit.cshtml",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:00:17.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\appsettings.json",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\appsettings.json",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T03:55:19.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NvlEmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Controllers\\NvlEmployeesController.cs",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Controllers\\NvlEmployeesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Controllers\\NvlEmployeesController.cs",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Controllers\\NvlEmployeesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:54:55.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NvlCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlCreate.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlCreate.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlCreate.cshtml",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:53:13.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NvlIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlIndex.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlIndex.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlIndex.cshtml",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Views\\NvlEmployees\\NvlIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:48:36.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NvlEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Models\\NvlEmployee.cs",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Models\\NvlEmployee.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Models\\NvlEmployee.cs",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Models\\NvlEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:48:47.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NvlAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlHome\\NvlAbout.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Views\\NvlHome\\NvlAbout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\NvlHome\\NvlAbout.cshtml",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Views\\NvlHome\\NvlAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:48:56.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Program.cs",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Program.cs",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T02:55:03.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NguyenVanLuong2310900060Context.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Models\\NguyenVanLuong2310900060Context.cs",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Models\\NguyenVanLuong2310900060Context.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Models\\NguyenVanLuong2310900060Context.cs",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Models\\NguyenVanLuong2310900060Context.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:16:50.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "NguyenVanLuong_2310900060\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\NguyenVanLuong_2310900060\\NguyenVanLuong_2310900060\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "NguyenVanLuong_2310900060\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:14:25.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

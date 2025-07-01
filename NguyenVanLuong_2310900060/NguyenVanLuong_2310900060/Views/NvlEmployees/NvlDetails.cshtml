@@ -1,0 +1,42 @@
+﻿@model NguyenVanLuong_2310900060.Models.NvlEmployee
+
+@{
+    ViewData["Title"] = "Xem thông tin danh mục loại";
+}
+
+<div>
+    <h4>NvlEmployees</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpStartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpStartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpStatus)
+        </dd>
+    </dl>
+</div>
+<div class="card-footer">
+    <div class="form-group">
+    <a asp-action="NvlEdit" asp-route-nvlId="@Model?.NvlEmpId" class="btn btn-primary">Edit</a> |
+    <a asp-action="NVlIndex">Back to List</a>
+    </div>
+</div>

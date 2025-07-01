@@ -1,0 +1,63 @@
+﻿@model IEnumerable<NguyenVanLuong_2310900060.Models.NvlEmployee>
+
+@{
+    ViewData["Title"] = "Danh mục loại";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NvlCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlEmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlEmpLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlEmpStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvlEmpStatus)
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvlEmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvlEmpLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvlEmpStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvlEmpStatus)
+            </td>
+                <td>
+                    @if (item.NvlEmpStatus == true)
+                    {
+                            <text>Show</text>
+                    }
+                    else
+                    {
+                            <text>Hide</text>
+                    }
+                 </td>
+            <td>
+                <a asp-action="NvlEdit" asp-route-id="@item.NvlEmpId">Edit</a> |
+                <a asp-action="NvlDetails" asp-route-id="@item.NvlEmpId">Details</a> |
+                <a asp-action="NvlDelete" asp-route-id="@item.NvlEmpId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

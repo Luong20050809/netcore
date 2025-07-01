@@ -1,0 +1,42 @@
+﻿@model NguyenVanLuong_2310900060.Models.NvlEmployee
+
+@{
+    ViewData["Title"] = "Are you sure you want to delete this?";
+}
+
+<div>
+    <h4>NvlEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpLevel)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpLevel)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpStartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpStartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvlEmpStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvlEmpStatus)
+        </dd>
+    </dl>
+    
+    <form asp-action="NvlDelete">
+        <input type="hidden" asp-for="NvlEmpId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="NvlIndex">Back to List</a>
+    </form>
+</div>
